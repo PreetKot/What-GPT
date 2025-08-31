@@ -177,32 +177,31 @@ export const UserMessagePart = memo(function UserMessagePart({
     );
   }
 
+
+  // Chat area gradient background
+  // (add this to the parent container in your chat page for full effect)
+
   return (
     <div className="flex flex-col gap-2 items-end my-2">
       <div className="flex items-end gap-3 max-w-full">
-        {/* spacer to push user bubble to the right */}
         <div className="flex-1" />
-
         <div className="flex items-end gap-2">
           <div className="hidden sm:block">
             <Avatar>
               <AvatarFallback>YOU</AvatarFallback>
             </Avatar>
           </div>
-
           <div
             data-testid="message-content"
             className={cn(
-              "whitespace-pre-wrap text-sm break-words max-w-[80%] px-4 py-3",
+              "whitespace-pre-wrap text-base break-words max-w-[80%] px-5 py-3 font-sans border-2 border-emerald-400 bg-gradient-to-br from-emerald-400/90 to-teal-500/90 text-white rounded-3xl shadow-lg",
               {
-                // prominent, rounded, colorful bubble for the user
-                "bg-gradient-to-tr from-sky-500 to-indigo-600 text-white rounded-xl shadow-md": isLast,
                 "opacity-50": isError,
               },
               isError && "border-destructive border",
             )}
           >
-            <p className={cn("whitespace-pre-wrap text-sm break-words")}>{part.text}</p>
+            <p className={cn("whitespace-pre-wrap text-base break-words font-sans")}>{part.text}</p>
           </div>
         </div>
       </div>
@@ -337,7 +336,9 @@ export const AssistMessagePart = memo(function AssistMessagePart({
   };
 
   return (
-    <div className={cn(isLoading && "animate-pulse", "flex flex-col gap-2 group")}>
+    <div
+      className={cn(isLoading && "animate-pulse", "flex flex-col gap-2 group")}
+    >
       <div className="flex items-start gap-3">
         <div className="flex-none hidden sm:block">
           <Avatar>
@@ -345,11 +346,10 @@ export const AssistMessagePart = memo(function AssistMessagePart({
             <AvatarFallback>W</AvatarFallback>
           </Avatar>
         </div>
-
         <div
           data-testid="message-content"
           className={cn(
-            "min-w-0 w-full p-4 rounded-lg bg-card border px-4 text-sm",
+            "min-w-0 w-full p-5 rounded-3xl border-2 border-sky-300 bg-white/80 shadow-md text-base font-sans",
             {
               "opacity-50 border-destructive": isError,
             },
