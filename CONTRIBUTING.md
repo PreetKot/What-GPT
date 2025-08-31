@@ -1,6 +1,6 @@
-# Contributing to better-chatbot
+# Contributing to what!!! GPT
 
-Thank you for your interest in contributing to better-chatbot! We welcome contributions from the community and truly appreciate your effort to improve the project.
+Thank you for your interest in contributing to what!!! GPT! We welcome contributions from the community and truly appreciate your effort to improve the project.
 
 ---
 
@@ -11,8 +11,8 @@ Thank you for your interest in contributing to better-chatbot! We welcome contri
 2. **Clone your fork** locally:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/better-chatbot.git
-   cd better-chatbot
+   git clone https://github.com/YOUR_USERNAME/What-GPT.git
+   cd What-GPT
    ```
 
 3. **Create a new branch** for your changes:
@@ -96,5 +96,5 @@ We use [Release Please](https://github.com/googleapis/release-please) to automat
 
 ## Thank You
 
-We sincerely appreciate your contribution to better-chatbot.
+We sincerely appreciate your contribution to what!!! GPT.
 Let’s build a powerful and lightweight AI experience together! 🚀

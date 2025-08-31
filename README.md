@@ -31,7 +31,7 @@
 [![Local First](https://img.shields.io/badge/Local-First-blue)](https://localfirstweb.dev/)
 <!-- Discord badge removed -->
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cgoinglove/better-chatbot&env=BETTER_AUTH_SECRET&env=OPENAI_API_KEY&env=GOOGLE_GENERATIVE_AI_API_KEY&env=ANTHROPIC_API_KEY&envDescription=Learn+more+about+how+to+get+the+API+Keys+for+the+application&envLink=https://github.com/cgoinglove/better-chatbot/blob/main/.env.example&demo-title=better-chatbot&demo-description=An+Open-Source+Chatbot+Template+Built+With+Next.js+and+the+AI+SDK+by+Vercel.&products=[{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"}])
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PreetKot/What-GPT&env=BETTER_AUTH_SECRET&env=OPENAI_API_KEY&env=GOOGLE_GENERATIVE_AI_API_KEY&env=ANTHROPIC_API_KEY&envDescription=Learn+more+about+how+to+get+the+API+Keys+for+the+application&envLink=https://github.com/PreetKot/What-GPT/blob/main/.env.example&demo-title=what!!!%20GPT&demo-description=An+Open-Source+Chatbot+Template+Built+With+Next.js+and+the+AI+SDK+by+Vercel.&products=[{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"}])
 
 Our goal is to create the best possible chatbot UX — focusing on the joy and intuitiveness users feel when calling and interacting with AI tools.
 
@@ -43,8 +43,8 @@ See the experience in action in the [preview](#preview) below!
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/cgoinglove/better-chatbot.git
-cd better-chatbot
+git clone https://github.com/PreetKot/What-GPT.git
+cd What-GPT
 
 # 2. (Optional) Install pnpm if you don't have it
 npm install -g pnpm
@@ -119,7 +119,7 @@ Sample prompt:
 Use the @web-search to look up information about 'modelcontetprotocol'.
 
 Then, using : @playwright
-Please go to GitHub and visit the cgoinglove/better-chatbot project.
+Please go to GitHub and visit the PreetKot/What-GPT project.
 Click on the README.md file.
 After that, close the browser.
 Finally, tell me how to install the package.
@@ -301,7 +301,7 @@ NOT_ALLOW_ADD_MCP_SERVERS=
 
 ## 📘 Guides
 
-Step-by-step setup guides for running and configuring better-chatbot.
+Step-by-step setup guides for running and configuring what!!! GPT.
 
 #### [🔌 MCP Server Setup & Tool Testing](./docs/tips-guides/mcp-server-setup-and-tool-testing.md)
 
@@ -342,14 +342,14 @@ Advanced use cases and extra capabilities that enhance your chatbot experience.
 
 ## 🗺️ Roadmap
 
-Planned features coming soon to better-chatbot:
+Planned features coming soon to what!!! GPT:
 
 - [ ] **File Attach & Image Generation**
 - [ ] **Collaborative Document Editing** (like OpenAI Canvas: user & assistant co-editing)
 - [ ] **RAG (Retrieval-Augmented Generation)**
 - [ ] **Web-based Compute** (with [WebContainers](https://webcontainers.io) integration)
 
-💡 If you have suggestions or need specific features, please create an [issue](https://github.com/cgoinglove/better-chatbot/issues)!
+💡 If you have suggestions or need specific features, please create an [issue](https://github.com/PreetKot/What-GPT/issues)!
 
 ## 🙌 Contributing
 
