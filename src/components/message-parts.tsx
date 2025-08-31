@@ -1252,7 +1252,7 @@ export const SimpleJavascriptExecutionToolPart = memo(
                 <div className="p-4 text-[10px] text-foreground flex flex-col gap-1">
                   <div className="text-foreground flex items-center gap-1">
                     <div className="w-1 h-1 mr-1 ring ring-border rounded-full" />{" "}
-                    better-chatbot
+                    what!!! GPT
                     <Percent className="size-2" />
                   </div>
                   {logs.map((log, i) => {

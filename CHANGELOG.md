@@ -1,11 +1,11 @@
 # Changelog
 
-## [1.15.0](https://github.com/cgoinglove/better-chatbot/compare/v1.14.1...v1.15.0) (2025-07-11)
+## [1.15.0](https://github.com/PreetKot/What-GPT/compare/v1.14.1...v1.15.0) (2025-07-11)
 
 
 ### Features
 
-* Add js-execution tool and  bug fixes(tool call) ([#148](https://github.com/cgoinglove/better-chatbot/issues/148)) ([12b18a1](https://github.com/cgoinglove/better-chatbot/commit/12b18a1cf31a17e565eddc05764b5bd2d0b0edee)) by @cgoinglove
+* Add js-execution tool and  bug fixes(tool call) ([#148](https://github.com/PreetKot/What-GPT/issues/148)) ([12b18a1](https://github.com/PreetKot/What-GPT/commit/12b18a1cf31a17e565eddc05764b5bd2d0b0edee)) by @cgoinglove
 
 
 ### Bug Fixes

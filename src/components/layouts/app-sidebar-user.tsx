@@ -133,7 +133,7 @@ export function AppSidebarUser({
             <DropdownMenuItem
               onClick={() => {
                 window.open(
-                  "https://github.com/cgoinglove/better-chatbot/issues/new",
+                  "https://github.com/PreetKot/What-GPT/issues/new",
                   "_blank",
                 );
               }}
